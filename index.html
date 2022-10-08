@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Basketball Scoreboard</title>
+</head>
+<body>
+    <div class="container">
+        <div id="home-container">
+            <h3 id="home-title">HOME</h3>
+            <h2 class="score" id="home-score-board"></h2>
+            <div class="buttons">
+                <button onclick="add1HomePoint()">+1</button>
+                <button onclick="add2HomePoints()">+2</button>
+                <button onclick="add3HomePoints()">+3</button>
+            </div>
+        </div>
+        <div>
+            <h3 id="guest-title">GUEST</h3>
+            <h2 class="score" id="guest-score-board"></h2>
+            <div class="buttons">
+                <button onclick="add1GuestPoint()">+1</button>
+                <button onclick="add2GuestPoints()">+2</button>
+                <button onclick="add3GuestPoints()">+3</button>
+            </div>
+        </div>
+    </div>
+    <button id="new-game-btn" onclick="resetScore()">New Game</button>
+    <script src="index.js"></script>
+</body>
+</html>

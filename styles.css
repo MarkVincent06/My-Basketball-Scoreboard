@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Cursed Timer";
+    src: url(fonts/CursedTimer.ttf);
+}
+
+body {
+    margin: 0;
+    background: whitesmoke;
+    color: whitesmoke;
+    font-family: 'Roboto Mono', monospace;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.container {
+    margin: 20px auto;
+    border: none;
+    border-radius: 5px;
+    background: #075985;
+    max-width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#home-container {
+    width: 90px;
+}
+
+#home-title {
+    text-align: center;
+    font-size: 1.6rem;
+
+}
+
+#guest-title {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.score {
+    margin-top: -15px;
+    border: none;
+    border-radius: 3px;
+    background: #080001;
+    height: 50px;
+    padding: 15px 20px 0px 20px;
+    font-family: "Cursed Timer", serif;
+    font-size: 35px;
+    text-align: center;
+    color: #F94F6D;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;   
+    justify-content: center;
+    gap: 5px;
+}
+
+.buttons > button {
+    border: 1px solid #9AABD8;
+    border-radius: 3px;
+    background: none;
+    font-family: "Cursed Timer", serif;
+    padding: 3px 6px;
+    color: #9AABD8;
+    text-shadow: 0 0 1px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.buttons > button:hover {
+    border-color: #F94F6D;
+    color: #F94F6D;
+}
+
+#new-game-btn {
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+  background: none;
+  margin: -75px auto 0; 
+  padding: 5px 10px;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  color: #9AABD8;
+  cursor: pointer;
+}
+
+#new-game-btn:hover {
+    border-color: #F94F6D;
+    color: #F94F6D;
+}
